@@ -1,6 +1,6 @@
 # BitLinguist
 
-Program Developers: Jennifer Bailey(ofq551), Kara Gustavus (wbp233), Itzel Romero Sanchez(grn638)
+Program Developers: Jennifer Bailey, Kara Gustavus, Itzel Romero Sanchez
 
 BitLinguist is a desktop application built with JavaFX in Eclipse that allows students to practice their vocabularly for a
 foreign language class. For our first iteration, we choose to use Chinese as our test language. The application lets students 
@@ -24,12 +24,3 @@ Validation: The user is not able to deselected both options for the study method
 On load of the Visual & Audio views, the list method is not selected. Messages are displayed to the user and an alert is displayed 
 if the user tries to submit a response without a selected list. The user's responses are validated in the Validation Screen Controller 
 for the Validation Screen view. Blank submissions are allowed.
-
-# How to download & run in Eclipse
-1. On the main page of the BitLinguist repository, locate the green clone/download button, and copy the URL.
-2. In Elicpse, switch to the EGit view, and click "Clone Existing Repository"
-3. Paste the copied repository URI into the correct field; doing so should autopopulate the other fields. Protocol should be 
-   left as https
-4. Click next and follow the directions on the following screens to select the master branch and indicate the local destination of 
-   the repository.
-5. Open Main.java and run the program.
