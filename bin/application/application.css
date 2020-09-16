@@ -1,0 +1,66 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+.background {
+	-fx-background-color: linear-gradient(#5C716A, #53635D);
+}
+
+#title{
+	-fx-text-fill: #DEBDAD;
+	-fx-font-family: "Avenir, Arial, sans-serif";
+	-fx-font-size: 36;
+	-fx-font-weight: bold;
+}
+
+.text-area .content {
+	-fx-font-family: "Avenir, Arial, sans-serif";
+	-fx-font-size: 12;
+	-fx-text-fill: #1F1F1F;
+	-fx-background-color: #EBE8DB;
+}
+
+.text-area {
+	-fx-background-color: #BCE2D4;
+}
+
+.button {
+    -fx-background-color: linear-gradient(#7499A3, #354F57);
+    -fx-background-radius: 30;
+    -fx-background-insets: 0;
+    -fx-padding: 10 20;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 18;
+}
+
+.button:hover {
+    -fx-background-color: linear-gradient(#CDF7E8, #BCE2D4);
+    -fx-background-radius: 30;
+    -fx-background-insets: 0;
+    -fx-padding: 10 20;
+    -fx-text-fill: #1F1F1F;
+    -fx-font-weight: bold;
+    -fx-font-size: 18;
+}
+
+.label, .radio-button {
+	-fx-font-family: "Avenir, Arial, sans-serif";
+	-fx-font-size: 16;
+	-fx-text-fill: white;
+	-fx-font-weight: bold;
+	
+}
+
+.answerCat {
+	-fx-font-family: "Avenir, Arial, sans-serif";
+	-fx-text-fill: white;
+	-fx-font-size: 20;
+	-fx-font-weight: bold;
+}
+
+.message {
+	-fx-font-family: "Avenir, Arial, sans-serif";
+	-fx-text-fill: white;
+	-fx-font-size: 25;
+	-fx-font-weight: bold;
+}
+

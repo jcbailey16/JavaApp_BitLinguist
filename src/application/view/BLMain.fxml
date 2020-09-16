@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane styleClass="background" stylesheets="@../application.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.BLController">
+   <children>
+      <BorderPane layoutY="-1.0" prefHeight="307.0" prefWidth="447.0" styleClass="background" stylesheets="@../application.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <top>
+            <Label id="title" alignment="CENTER" contentDisplay="CENTER" stylesheets="@../application.css" text="Welcome to BitLinguist!" textAlignment="CENTER" BorderPane.alignment="CENTER">
+               <font>
+                  <Font name="Helvetica Neue Bold" size="36.0" />
+               </font>
+               <BorderPane.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </BorderPane.margin>
+            </Label>
+         </top>
+         <center>
+            <TextArea editable="false" prefHeight="194.0" prefWidth="350.0" stylesheets="@../application.css" text="This application will let you study Chinese audio and visual flas. For the audio flashcards! You can listen to vocabulary word, and then enter the word in English and Chinese. For Chinese, you'll actually enter the pinyin. &#10;&#10;The visual flashcards will require you to enter the same information, but will display a picture or character of the vocabulary word. You will be able to switch between each flashcard type and different sets of vocabulary terms." wrapText="true" BorderPane.alignment="CENTER">
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding>
+               <font>
+                  <Font name="Helvetica Neue" size="13.0" />
+               </font>
+               <BorderPane.margin>
+                  <Insets left="10.0" right="20.0" />
+               </BorderPane.margin>
+            </TextArea>
+         </center>
+         <bottom>
+            <Button fx:id="startBtn" mnemonicParsing="false" onAction="#startPgm" stylesheets="@../application.css" text="START" BorderPane.alignment="CENTER">
+               <font>
+                  <Font name="Helvetica Neue Medium" size="13.0" />
+               </font>
+               <BorderPane.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </BorderPane.margin>
+            </Button>
+         </bottom>
+         <left>
+            <Pane prefHeight="197.0" prefWidth="13.0" stylesheets="@../application.css" BorderPane.alignment="CENTER" />
+         </left>
+      </BorderPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.media.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="345.0" prefWidth="600.0" styleClass="background" stylesheets="@../application.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.AudioController">
+   <children>
+      <Label layoutX="42.0" layoutY="216.0" prefHeight="20.0" prefWidth="50.0" stylesheets="@../application.css" text="Pinyin" />
+      <Label layoutX="314.0" layoutY="216.0" prefHeight="20.0" prefWidth="69.0" stylesheets="@../application.css" text="English" />
+      <TextField fx:id="pinyin" layoutX="93.0" layoutY="212.0" stylesheets="@../application.css" />
+      <TextField fx:id="english" layoutX="373.0" layoutY="211.0" stylesheets="@../application.css" />
+      <Button fx:id="wordSubmit" layoutX="219.0" layoutY="280.0" mnemonicParsing="false" onAction="#goToValidateScreen" prefHeight="44.0" prefWidth="140.0" stylesheets="@../application.css" text="Submit" />
+      <Button fx:id="help" layoutX="475.0" layoutY="281.0" mnemonicParsing="false" onAction="#openHelp" prefHeight="43.0" prefWidth="92.0" stylesheets="@../application.css" text="Help" />
+      <Label layoutX="14.0" layoutY="14.0" stylesheets="@../application.css" text="Choose Study Method:" />
+      <Label layoutX="306.0" layoutY="14.0" stylesheets="@../application.css" text="Choose Vocabulary Set:" />
+      <RadioButton fx:id="audioMthd" layoutX="204.0" layoutY="13.0" mnemonicParsing="false" selected="true" stylesheets="@../application.css" text="Audio">
+         <toggleGroup>
+            <ToggleGroup fx:id="studyMethod" />
+         </toggleGroup></RadioButton>
+      <RadioButton fx:id="picMthd" layoutX="204.0" layoutY="42.0" mnemonicParsing="false" onAction="#goToPicture" stylesheets="@../application.css" text="Visual" toggleGroup="$studyMethod" />
+      <RadioButton fx:id="list1" layoutX="496.0" layoutY="14.0" mnemonicParsing="false" stylesheets="@../application.css" text="List 1">
+         <toggleGroup>
+            <ToggleGroup fx:id="vocabPick" />
+         </toggleGroup></RadioButton>
+      <RadioButton fx:id="list2" layoutX="496.0" layoutY="43.0" mnemonicParsing="false" stylesheets="@../application.css" text="List 2" toggleGroup="$vocabPick" />
+      <MediaView fx:id="playWord" fitHeight="100.0" fitWidth="200.0" layoutX="189.0" layoutY="87.0" preserveRatio="false" />
+      <Button fx:id="drawWord" layoutX="128.0" layoutY="124.0" mnemonicParsing="false" onAction="#setAudio" text="Select List. Then Click to Play Word" />
+   </children>
+</AnchorPane>
