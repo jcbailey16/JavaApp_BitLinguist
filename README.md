@@ -2,7 +2,7 @@
 
 Program Developers: Jennifer Bailey, Kara Gustavus, Itzel Romero Sanchez
 
-BitLinguist is a desktop application built with JavaFX in Eclipse that allows students to practice their vocabularly for a
+BitLinguist is a desktop application built with JavaFX in Eclipse that allows students to practice their vocabulary for a
 foreign language class. For our first iteration, we choose to use Chinese as our test language. The application lets students 
 study in two ways: through visual and audio "flashcards". If students choose the visual flashcard, a random picture of a Chinese 
 word is displayed from a student-selected list (there are two uploaded in this version). The student will then provide the pinyin 
